@@ -3,14 +3,26 @@ body{
     margin-top: 0%;
     padding: 0px;
 }
-.name{
+.other{
+    padding:0.25rem;
+}
+button{
+    margin-top: 0.5rem;
+    border-radius: 25rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.name,.firsttable{
+display:flex;
+column-gap: 3.5rem;
 margin-top: 1.5px;
 margin-bottom: 0px;
 background-color: rgb(192, 192, 192);
-border-color: black;
-padding-top: 1.5rem;
-padding-bottom: 1.7rem;
-padding-left: 11rem;
+border-color:s;
+padding-top: 1rem;
+padding-bottom: 1.1rem;
+padding-left: 5rem;
+padding-right: 11rem;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 border-radius: 1.5rem;
 margin-left: 1.5px;
@@ -25,9 +37,9 @@ margin-right: 0px;
     display: flex;
     column-gap: 5rem;
     background-color: rgb(255, 236, 178);
-    margin-top: 5rem;
+    margin-top: 1rem;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 27px;
     border-radius: 15rem;
     justify-content: space-evenly;
     border: 1.5px solid rgb(0, 0, 0);
@@ -83,7 +95,7 @@ li{
 .Three{
     text-align: center;
     padding-bottom: 1rem;
-    margin-top: 3.5rem;
+    margin-top: 7.5rem;
 }
 .c1{
     margin-left: -0.75rem;
@@ -110,3 +122,4 @@ li{
     padding-bottom: 7px;
     color: rgb(159, 159, 160);
 }
+
